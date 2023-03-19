@@ -1,6 +1,13 @@
 .container {
   max-width: 768px;
 }
+@media screen and (max-width: 1199px) {
+  .section-team .container,
+  .customer-tablet .container,
+  .footer-tablet .container {
+    max-width: 528px;
+  }
+}
 /*#region ---styles for header--- */
 
 .header-burger,
@@ -82,13 +89,13 @@
 /*#endregion ---styles for hero --- */
 /*#region ---styles for feature --- */
 @media screen and (max-width: 1199px) {
-  .feature-title {
-    text-align: start;
-  }
   .feature-list {
     display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
+  }
+  .feature-title {
+    font-weight: 700;
   }
 }
 .feature-icon-container {

@@ -31,7 +31,6 @@
 }
 
 /* Section feature */
-/* Desck-feature */
 
 @media screen and (min-width: 1200px) {
   .feature-list {
@@ -62,6 +61,9 @@
     letter-spacing: 0.02em;
 
     margin-bottom: 8px;
+  }
+  .feature-text {
+    font-weight: 400;
   }
 }
 /*
@@ -115,6 +117,7 @@
     letter-spacing: 0.02em;
     margin-bottom: 72px;
     text-align: center;
+    text-transform: capitalize;
   }
   .img-list {
     display: flex;
