@@ -6,7 +6,6 @@
   --color-secondary: #404bbf;
   --color-brand: #4d5ae5;
 }
-
 p,
 h1,
 h2,
@@ -99,7 +98,6 @@ img {
     display: none;
   }
 }
-
 /* mobile modal */
 
 .mobile-menu {
@@ -128,11 +126,10 @@ img {
   justify-content: space-between;
   padding: 80px 40px 40px 40px;
 }
-
 .mob-modal-close-btn {
   position: absolute;
   top: 24px;
-  right: 0;
+  right: 24px;
 
   display: flex;
   justify-content: center;
@@ -695,7 +692,7 @@ img {
 }
 
 /*#endregion ---styles for our team--- */
-
+/*#region ---styles for customers --- */
 /* customers */
 @media screen and (max-width: 767px) {
   .company-list {
@@ -745,6 +742,8 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+/*#endregion ---styles for customers--- */
+/*#region ---styles for footer --- */
 /* footer mbl */
 
 @media screen and (max-width: 767px) {
@@ -792,6 +791,7 @@ footer {
   letter-spacing: 0.02em;
   width: 264px;
   margin-top: 16px;
+  text-align: start;
 }
 .social-block {
 }
@@ -892,7 +892,7 @@ footer {
 .btn-subscribe:focus {
   background: var(--color-secondary);
 }
-
+/*#endregion ---styles for footer --- */
 /*#region ---styles for portfolio--- */
 
 .section-portfolio {

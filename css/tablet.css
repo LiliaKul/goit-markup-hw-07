@@ -5,7 +5,7 @@
   .section-team .container,
   .customer-tablet .container,
   .footer-tablet .container {
-    max-width: 528px;
+    max-width: 582px;
   }
 }
 /*#region ---styles for header--- */
@@ -97,14 +97,12 @@
   .feature-title {
     font-weight: 700;
   }
+  .feature-item {
+    flex-basis: calc((100% - 1 * 24px) / 2);
+  }
 }
 .feature-icon-container {
   display: none;
-}
-
-.feature-item {
-  flex-basis: calc((100% - 1 * 24px) / 2);
-  margin-bottom: 72px;
 }
 
 /*#endregion ---styles for feature--- */
